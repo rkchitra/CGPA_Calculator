@@ -1,0 +1,247 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/gpa1"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Enter 1st sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa2"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="Enter 2nd sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa3"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="217dp"
+        android:ems="10"
+        android:hint="Enter 3rd sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa4"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="277dp"
+        android:ems="10"
+        android:hint="Enter 4th sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa5"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="333dp"
+        android:ems="10"
+        android:hint="Enter 5th sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa6"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="388dp"
+        android:ems="10"
+        android:hint="Enter 6th sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa7"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="442dp"
+        android:ems="10"
+        android:hint="Enter 7th sem GPA"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/gpa8"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="503dp"
+        android:ems="10"
+        android:hint="Enter 8th sem GPA"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="115dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="167dp"
+        android:layout_marginTop="22dp"
+        android:text="CGPA Calculator" />
+
+    <EditText
+        android:id="@+id/cred1"
+        android:layout_width="37dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="25" />
+
+    <EditText
+        android:id="@+id/cred2"
+        android:layout_width="38dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="49dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="25" />
+
+    <EditText
+        android:id="@+id/cred3"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="324dp"
+        android:layout_marginTop="214dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="27" />
+
+    <EditText
+        android:id="@+id/cred4"
+        android:layout_width="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="274dp"
+        android:layout_marginEnd="52dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="27" />
+
+    <EditText
+        android:id="@+id/cred5"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="49dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="27" />
+
+    <EditText
+        android:id="@+id/cred6"
+        android:layout_width="39dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="326dp"
+        android:layout_marginTop="390dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="26" />
+
+    <EditText
+        android:id="@+id/cred7"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="327dp"
+        android:layout_marginTop="445dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="30" />
+
+    <EditText
+        android:id="@+id/cred8"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="19" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="70dp"
+        android:text="SGPA" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="48dp"
+        android:text="Credits" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="115dp"
+        android:text="CALCULATE" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="133dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginBottom="34dp" />
+</RelativeLayout>
